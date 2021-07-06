@@ -63,7 +63,11 @@ return(
         <TableData>{PageantName}</TableData>
         <TableData>{Date}</TableData>          
         <TableData>{Venue}</TableData>
-        <TableData><div style={{display:'inline-flex'}}><Avatar src={img1} style={{width:'30px',height:'30px'}}/>&ensp;{cusname}</div></TableData>
+        <TableData>
+            <div style={{display:'inline-flex'}}>
+                <Avatar src={img1} style={{width:'30px',height:'30px'}}/>&ensp;{cusname}
+            </div>
+        </TableData>
         <TableData>{TicketPrice}</TableData>
         <TableData >               
             <BsPencil/>&ensp;
